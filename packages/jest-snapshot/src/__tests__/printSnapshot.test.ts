@@ -6,8 +6,8 @@
  */
 
 import ansiRegex = require('ansi-regex');
-import * as styles from 'ansi-styles';
-import chalk from 'chalk';
+import styles = require('ansi-styles');
+import chalk = require('chalk');
 import format = require('pretty-format');
 
 import jestSnapshot = require('../index');
